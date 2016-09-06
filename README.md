@@ -1,7 +1,9 @@
 # Magic: The Gathering SDK
 
+[![Latest Stable Version](https://poser.pugx.org/mtgsdk/mtgsdk/v/stable)](https://packagist.org/packages/mtgsdk/mtgsdk)
+[![License](https://poser.pugx.org/mtgsdk/mtgsdk/license)](https://packagist.org/packages/mtgsdk/mtgsdk)
+[![composer.lock](https://poser.pugx.org/mtgsdk/mtgsdk/composerlock)](https://packagist.org/packages/mtgsdk/mtgsdk)
 [![Build Status](https://travis-ci.org/guiwoda/mtg-sdk-php.svg?branch=master)](https://travis-ci.org/guiwoda/mtg-sdk-php)
-[![Requirements Status](https://requires.io/github/guiwoda/mtg-sdk-php/requirements.svg?branch=master)](https://requires.io/github/guiwoda/mtg-sdk-php/requirements/?branch=master)
 [![Code Climate](https://codeclimate.com/github/guiwoda/mtg-sdk-php/badges/gpa.svg)](https://codeclimate.com/github/guiwoda/mtg-sdk-php)
 [![Coverage Status](https://coveralls.io/repos/github/guiwoda/mtg-sdk-php/badge.svg?branch=master)](https://coveralls.io/github/guiwoda/mtg-sdk-php?branch=master)
 
