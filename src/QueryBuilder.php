@@ -2,6 +2,9 @@
 
 namespace mtgsdk;
 
+/**
+ * @method string[] array()
+ */
 class QueryBuilder
 {
     const ENDPOINT = "https://api.magicthegathering.io/v1";
@@ -119,13 +122,17 @@ class QueryBuilder
      *
      * @return string[] Array of resources
      */
-    public function array()
+    public function __call($name, $args)
     {
-        $resourceName = constant($this->type . '::RESOURCE');
-
-        $url = sprintf("%s/%s", self::ENDPOINT, $resourceName);
-
-        return $this->fetch($this->buildUrl($url, $this->params), $resourceName);
+        if ($name === 'array') {
+            $resourceName = constant($this->type . '::RESOURCE');
+    
+            $url = sprintf("%s/%s", self::ENDPOINT, $resourceName);
+    
+            return $this->fetch($this->buildUrl($url, $this->params), $resourceName);
+        }
+        
+        throw new \BadMethodCallException("Method not defined: [$name].");
     }
 
     /**
