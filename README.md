@@ -3,9 +3,9 @@
 [![Latest Stable Version](https://poser.pugx.org/mtgsdk/mtgsdk/v/stable)](https://packagist.org/packages/mtgsdk/mtgsdk)
 [![License](https://poser.pugx.org/mtgsdk/mtgsdk/license)](https://packagist.org/packages/mtgsdk/mtgsdk)
 [![composer.lock](https://poser.pugx.org/mtgsdk/mtgsdk/composerlock)](https://packagist.org/packages/mtgsdk/mtgsdk)
-[![Build Status](https://travis-ci.org/guiwoda/mtg-sdk-php.svg?branch=master)](https://travis-ci.org/guiwoda/mtg-sdk-php)
-[![Code Climate](https://codeclimate.com/github/guiwoda/mtg-sdk-php/badges/gpa.svg)](https://codeclimate.com/github/guiwoda/mtg-sdk-php)
-[![Coverage Status](https://coveralls.io/repos/github/guiwoda/mtg-sdk-php/badge.svg?branch=master)](https://coveralls.io/github/guiwoda/mtg-sdk-php?branch=master)
+[![Build Status](https://travis-ci.org/MagicTheGathering/mtg-sdk-php.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-sdk-php)
+[![Code Climate](https://codeclimate.com/github/MagicTheGathering/mtg-sdk-php/badges/gpa.svg)](https://codeclimate.com/github/MagicTheGathering/mtg-sdk-php)
+[![Coverage Status](https://coveralls.io/repos/github/MagicTheGathering/mtg-sdk-php/badge.svg?branch=master)](https://coveralls.io/github/MagicTheGathering/mtg-sdk-php?branch=master)
 
 This is the Magic: The Gathering SDK PHP implementation. It is a wrapper around the MTG API of [magicthegathering.io](http://magicthegathering.io/).
 
