@@ -16,7 +16,7 @@ This library does not have any requirements.
 
 Using composer:
 
-    composer install mtgsdk/mtgsdk
+    composer require mtgsdk/mtgsdk:dev-master
 
 ## Usage
 
