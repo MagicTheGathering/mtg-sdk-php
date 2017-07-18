@@ -61,7 +61,7 @@ class CardTest extends TestCase
         VCR::insertCassette('legendary_elf_warriors.yaml');
 
         $cards = Card::where(['supertypes' => 'legendary'])->where(['subtypes' => 'elf,warrior'])->all();
-        $this->assertCount(15, $cards);
+        $this->assertCount(18, $cards);
     }
 
     public function test_all_with_page_returns_cards()
