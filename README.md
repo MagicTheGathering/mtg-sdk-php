@@ -96,7 +96,7 @@ NOTE: **All properties are READ-ONLY. You cannot modify them.**
     
 ### Filter Cards via Query Parameters
 
-    $cards = Card::where(set='ktk')->where(subtypes='warrior,human')->all();
+    $cards = Card::where(['set' => 'ktk'])->where(['subtypes' => ['warrior', 'human']])->all();
     
 ### Get all cards (will page through all the data - could take awhile)
 
