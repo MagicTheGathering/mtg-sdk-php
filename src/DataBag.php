@@ -17,7 +17,8 @@ trait DataBag
         $this->data = $data;
     }
 
-    public function __isset($name) {
+    public function __isset($name)
+    {
         return isset($this->data[$name]);
     }
 
