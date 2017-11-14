@@ -104,11 +104,11 @@ NOTE: **All properties are READ-ONLY. You cannot modify them.**
     
 ### Get all cards, but only a specific page of data
 
-    $cards = Card::where(['page' => 5, 'pageSize' => 1000])->all();
+    $cards = Card::where(['page' => 5, 'pageSize' => 30])->all();
     
 ### Nesting conditions is also allowed
 
-    $cards = Card::where(['page' => 5])->where(['pageSize' => 1000])->all();
+    $cards = Card::where(['page' => 5])->where(['pageSize' => 30])->all();
     
 ### Find a Set by code
 
